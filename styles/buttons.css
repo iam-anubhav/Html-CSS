@@ -1,0 +1,101 @@
+.subscribe-button{
+    background-color: rgb(200,0,0);
+    color: #ffffff;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;    /*arrow to hand cursor*/
+    border-radius: 3px;  /*to make rounded corners*/
+    border-color: rgb(200,0,0);
+    margin-right: 6px;
+    transition: opacity 0.15s;
+}
+
+/*psuedo class*/
+/*These properties applies while hovering on the button in addition with 
+properties of base class.*/
+.subscribe-button:hover{
+    opacity: 0.6;   /*to fade the color of button while hovering on it*/
+}
+
+/*These properties applies when the button is clicked*/
+.subscribe-button:active{
+    opacity:0.4;    /*to fade the color of button even more when it is clicked*/
+}
+
+.join-button{
+    background-color: white;
+    color: rgb(73, 73, 255);
+    width: 60px;
+    height: 35px;
+    cursor: pointer;
+    border-color: dodgerblue;
+    border-radius: 3px;
+    margin-right: 6px;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.join-button:hover{
+    background-color: rgb(73, 73, 255);
+    color: white;
+}
+
+.join-button:active{
+    opacity: 0.5;
+}
+
+.tweet-button{
+    background-color: dodgerblue;
+    color: white;
+    width: 70px;
+    height: 35px;
+    border-color: dodgerblue;
+    border-radius: 17.5px;  /*Value should be half the value of height/width(whichever is less) to make rounded button*/
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+    transition: box-shadow 0.15s;
+}
+
+.tweet-button:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+    /*To show a shadow below the button while hovering on it.*/
+}
+
+.getstarted-button{
+    background-color: rgb(175, 90, 255);
+    border-color: rgb(175, 90, 255);
+    border-radius: 3px;
+    color: white;
+    width: 90px;
+    height: 35px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: 6px;
+    transition: opacity 0.15s;
+}
+
+.getstarted-button:hover{
+    opacity: 0.7;
+}
+.getstarted-button:active{
+    opacity: 0.5;
+}
+.download-button{
+    background-color: #ffffff;
+    color: black;
+    border-radius: 3px;
+    border-color: black;
+    width: 90px;
+    height: 35px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.15s, color 0.15s;
+}
+.download-button:hover{
+    background-color: rgb(153, 153, 153);
+    color: white;
+}
+.download-button:active{
+    opacity: 0.5;
+}

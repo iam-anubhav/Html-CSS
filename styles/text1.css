@@ -1,0 +1,36 @@
+p {
+    font-family: Verdana;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.sub-title{
+    font-size: 22px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 20px;
+}
+.description{
+    font-size: 15px;
+    width: 280px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.getstarted-button{
+    background-color: rgb(17, 179, 17);
+    color: white;
+    border-radius: 7px;
+    border-color: rgb(17, 179, 17);
+    font-family: Verdana;
+    font-weight: bold;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.getstarted-button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
