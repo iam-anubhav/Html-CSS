@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Display Property</title>
+        <style>
+            .name{
+                display: block;
+                margin-bottom: 5px;
+            }
+            .email{
+                display: block;
+            }
+            .inline-para{
+                display: inline-block;
+                width: 200px;
+                vertical-align: middle;
+            }
+            .button{
+                display: inline-block;
+                vertical-align: middle;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Inline Elements : </p>
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Email">
+
+        <p><u>Inline to Block</u> element using CSS Display Property : </p>
+        <input class="name" type="text" placeholder="Name">
+        <input class="email" type="text" placeholder="Email">
+
+        <p>Block Elements without display property : </p>
+        <p>
+            Thanks for chatting with our customer support.
+            Would you like to take our quick survey?
+        </p>
+        <button>
+            Yes
+        </button>
+        <button>No</button>
+
+        <p><u>Block to Inline-Block</u> using display property : </p>
+
+        <p class="inline-para">
+            Thanks for chatting with our customer support.
+            Would you like to take our quick survey?
+        </p>
+        <button class="button">
+            Yes
+        </button>
+        <button>No</button>
+    </body>
+</html>
