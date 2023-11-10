@@ -5,20 +5,10 @@ p{
     margin-top: 5px;
     margin-bottom: 10px;
 }
-.pickup-textbox{
-    display: block;
-    margin-bottom: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 70px;
-    background-color: rgb(245, 242, 236);
-    color: grey;
-    border: none;
-}
+.pickup-textbox,
 .destination-textbox{
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
@@ -37,9 +27,6 @@ p{
     border-radius: 4px;
     margin-right: 5px;
 }
-.request-button:hover{
-    opacity: 0.7;
-}
 .schedule-button{
     background-color: rgb(245, 242, 236);
     color: black;
@@ -51,6 +38,7 @@ p{
     margin-right: 5px;
     border: none;
 }
+.request-button:hover,
 .schedule-button:hover{
     opacity: 0.7;
 }
