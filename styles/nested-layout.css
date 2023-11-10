@@ -1,0 +1,48 @@
+.video{
+    margin-bottom: 10px;
+}
+.video-thumb{
+    display: inline-block;
+}
+.video-description{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+.thumbnail{
+    width:250px;
+    height: 150px;
+    border-radius: 7px;
+}
+.video-title{
+    font-size: 20px;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Roboto;
+}
+.video-stats{
+    margin-top: 0;
+    color: grey;
+    font-size: 13px;
+}
+.channel{
+    margin-top: 20px;
+}
+.channel-pic{
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+.channel-name{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.desc{
+    margin-top: 20px;
+    font-size: 12px;
+}
