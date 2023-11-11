@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Grids</title>
+        <style>
+            .grid1{
+                display: grid;
+                grid-template-columns: 100px 100px; /*it specifies the no. of columns in 
+                the grid and 100px is width of column.*/
+            }
+            .grid2{
+                display: grid;
+                grid-template-columns: 100px 100px 200px;
+                margin-top: 20px;
+            }
+            .grid3{
+                display: grid;
+                grid-template-columns: 100px 1fr;   /*1fr means free space it means the 
+                second column will take the remaining space of the block.*/
+                margin-top: 20px;
+            }
+            .grid4{
+                display: grid;
+                grid-template-columns: 100px 1fr 2fr;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+      <div class="grid1">
+            <div style="background-color: lightblue;">
+                Div 1
+                <p>
+                    Text
+                </p>
+            </div>
+            <div style="background-color: lightpink;">
+                Div 2
+                <p>
+                    Text
+                </p>
+            </div>
+            
+        </div>
+
+        <div class="grid2">
+            <div style="background-color: lightblue;">
+                Div 1
+                <p>
+                    100px
+                </p>
+            </div>
+            <div style="background-color: lightpink;">
+                Div 2
+                <p>
+                    100px
+                </p>
+            </div>
+            <div style="background-color: lightblue;">
+                Div 3
+                <p>
+                    200px
+                </p>
+            </div>
+        </div>
+
+        <div class="grid3">
+            <div style="background-color: lightblue;">
+                Div 1
+                <p>
+                    100px
+                </p>
+            </div>
+            <div style="background-color: lightpink;">
+                Div 2
+                <p>
+                    1fr
+                </p>
+            </div>
+        </div>
+
+        <div class="grid4">
+            <div style="background-color: lightblue;">
+                Div 1
+                <p>
+                    100px
+                </p>
+            </div>
+            <div style="background-color: lightpink;">
+                Div 2
+                <p>
+                    1fr
+                </p>
+            </div>
+            <div style="background-color: lightblue;">
+                Div 3
+                <p>
+                    2fr
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
