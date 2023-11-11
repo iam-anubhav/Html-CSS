@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flexbox Header</title>
+    <style>
+        .header{
+            display: flex;
+            flex-direction: row;
+            background-color: plum;
+            justify-content: space-between;
+            align-items: center ;
+            width: 600px;
+        }
+        .left-section{
+            margin-left: 10px;
+            color: white;
+            font-weight: bold;
+            width: 100px;
+        }
+        .middle-section{
+            flex: 1;
+        }
+        .right-section{
+            width: 100px;
+        }
+        .search-bar{
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 8px;
+            padding-right: 150px;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 0 3px rgba(0,0,0,0.3);
+        }
+        .download-button{
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 10px;
+            padding-right: 10px;
+            color: white;
+            background-color: plum;
+            border-color: white;
+            border-style: solid;
+            border-radius: 4px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="left-section">
+            <p>Home</p>
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+        </div>
+        <div class="right-section">
+            <button class="download-button">Download</button>
+        </div>
+    </div>
+</body>
+</html>
