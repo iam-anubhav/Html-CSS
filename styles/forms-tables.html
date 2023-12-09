@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form and Table</title>
+    <style>
+        table,th,td{
+            border: 3px solid;
+            border-collapse: collapse;
+            border-color: blueviolet;
+            width: 20%;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>HTML Form</h1>
+    <p>Fill Details Below </p>
+
+    <form>
+        <label>First Name</label>
+        <input type="text" name="fname"/><br><br>
+        <label>Last Name</label>
+        <input type="text" name="lname"/><br><br>
+        <label>Mobile No.</label>
+        <input type="number" name="mobileno"/><br><br>
+        <label>Choose Service</label>
+        <input type="radio" name="service" value="Hair">
+        <label>Hair</label>
+        <input type="radio" name="service" value="Skin">
+        <label>Skin</label>
+        <input type="radio" name="service" value="Face">
+        <label>Face</label><br><br>
+        <label>Choose Products </label>
+        <input type="checkbox" name="facial">
+        <label>Facial</label>
+        <input type="checkbox" name="facial">
+        <label>Bleach</label>
+        <input type="checkbox" name="facial">
+        <label>Scrub</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h1> HTML Table</h1>
+
+    <table >
+        <tr>
+            <th>SR. No.</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Dept.</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Jhon</td>
+            <td>26</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Marie</td>
+            <td>22</td>
+            <td>Bio Tech</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Walter</td>
+            <td>24</td>
+            <td>Mech</td>
+        </tr>
+    </table>
+</body>
+</html>
